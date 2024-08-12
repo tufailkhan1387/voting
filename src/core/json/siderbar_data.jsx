@@ -129,14 +129,14 @@ export const SidebarData = [
         icon: <Icon.ShoppingBag />,
         showSubRoute: false,
         submenu: false,
-      },
-      {
-        label: "Add Candidates",
-        link: "/purchase-order-report",
-        icon: <Icon.FileMinus />,
-        showSubRoute: false,
-        submenu: false,
       }
+      // {
+      //   label: "Add Candidates",
+      //   link: "/purchase-order-report",
+      //   icon: <Icon.FileMinus />,
+      //   showSubRoute: false,
+      //   submenu: false,
+      // }
     ],
   },
 

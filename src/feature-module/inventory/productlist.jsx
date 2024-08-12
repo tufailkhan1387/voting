@@ -61,6 +61,19 @@ const ProductList = () => {
       ),
       sorter: (a, b) => a.product.length - b.product.length,
     },
+    {
+      title: "No. of Districts",
+      dataIndex: "product",
+      render: () => (
+        <span className="productimgname">
+          <Link to="/profile" className="product-img stock-img">
+           
+          </Link>
+          <Link to="/profile">4</Link>
+        </span>
+      ),
+      sorter: (a, b) => a.product.length - b.product.length,
+    },
    
 
     {
